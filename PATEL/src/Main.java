@@ -15,17 +15,11 @@ public class Main {
         sword.setDamage(30);
         int damagevalue = sword.getDamage();
 
-        Weapon pillow = new Weapon("Soft Pillow",
-                "Soft pillow with cotton",
-                1, 1);
-        pillow.setDamage(5);
-        int damagevalue1 = pillow.getDamage();
+        Pillow softpillow = new Pillow();
 
-        Weapon mace = new Weapon("Mace",
-                "Heavier then a sword",
-                15, 40);
-        mace.setDamage(40);
-        int damagevalue2 = mace.getDamage();
+
+         Mace sharpmace = new Mace();
+
 
         Weapon arrow = new Weapon("Arrow",
                 "sharp like a spike",
@@ -33,11 +27,15 @@ public class Main {
         arrow.setDamage(40);
         int damagevalue3 = arrow.getDamage();
 
+        Enemy enemy = new Enemy("Dangers thing",20, 30);
+
+        
+
 
         System.out.println(goldbar);
         System.out.println(sword);
-        System.out.println(pillow);
-        System.out.println(mace);
+        System.out.println(softpillow);
+        System.out.println(sharpmace);
         System.out.println(arrow);
     }
 }
