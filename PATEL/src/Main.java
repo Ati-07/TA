@@ -29,7 +29,7 @@ public class Main {
 
         Enemy enemy = new Enemy("Dangers thing",20, 30);
 
-        
+
 
 
         System.out.println(goldbar);
