@@ -13,4 +13,8 @@ public class Enemy {
     public boolean is_alive(){
         return (this.hp > 0);
     }
+
+    public String toString(){
+        return String.format("%s \n=====\n %s \nvalue= %d \n", this.name, this.hp, this.damage);
+    }
 }
