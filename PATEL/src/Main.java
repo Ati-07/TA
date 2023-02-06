@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -6,6 +8,7 @@ public class Main {
         Weapon weapon = new Weapon("Hard weapon",
                 "Hard 1 weapon",
                 10, 50);
+
         weapon.setDamage(40);
        int dvalue = weapon.getDamage();
 
@@ -19,32 +22,33 @@ public class Main {
 
          Mace sharpmace = new Mace();
 
+
         Weapon arrow = new Weapon("Arrow",
                 "sharp like a spike",
                 30, 50);
         arrow.setDamage(40);
         int damagevalue3 = arrow.getDamage();
 
-        Enemy greenOgre = new Enemy("greenOrge",
-                20, 15);
+        Ogre greenOgre = new Ogre("greenOgre", 20, 35,
+                80, "20");
 
-        Enemy redOrge = new Enemy("redOrge",
-                30, 40);
+        Ogre redOrge = new Ogre("redOgre", 20, 35,
+                50, "30");
 
-        Enemy slowZombie = new Enemy("SlowZombie",
-                15, 20);
+        Zombie slowZombie = new Zombie("slowZombie", 25,
+                30, 40, "With Head");
 
-        Enemy fastZombie = new Enemy("fastZombie",
-                30, 45);
+        Zombie fastZombie = new Zombie("fastZombie", 30,
+                45, 90, "With out Head");
 
-        Enemy GiantSpider = new Enemy("GiantSpider",
-                25,35);
+        Enemy GiantSpider = new GiantSpider("GiantSpider", 35,
+                40, "Huge lags");
 
-        Enemy spotDog = new Enemy("spotDog",
-                15, 25);
+        Enemy spotDog = new Dog("spotDog", 20, 35,
+                30, "Sweet");
 
-        Enemy Scorpion = new Enemy("Green Scorpion",
-                30, 45);
+        Scorpion BlackScorpion = new Scorpion("BlackScorpion",15,
+                40, 35, "Very Poisonous" );
 
         System.out.println(goldbar);
         System.out.println(sword);
@@ -57,6 +61,6 @@ public class Main {
         System.out.println(fastZombie);
         System.out.println(GiantSpider);
         System.out.println(spotDog);
-        System.out.println(Scorpion);
+        System.out.println(BlackScorpion);
     }
 }
