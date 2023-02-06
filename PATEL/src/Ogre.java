@@ -16,8 +16,8 @@ public class Ogre extends Enemy {
     }
 
     public String toString() {
-        return String.format("%s \n=====\nHp = %s \nDamage = %d \nbodyfat = %s \nspeed =%s \n", this.name, this.hp, this.damage,
-                this.bodyFat, this.speed);
+        return String.format("%s \n=====\nHp = %s \nDamage = %d \nbodyfat = %s \nspeed =%s \n",
+                this.name, this.hp, this.damage, this.bodyFat, this.speed);
     }
 }
 
