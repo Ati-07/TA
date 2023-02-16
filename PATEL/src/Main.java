@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -48,6 +46,23 @@ public class Main {
         Scorpion BlackScorpion = new Scorpion("BlackScorpion",15,
                 40, 35, "Very Poisonous" );
 
+
+        ViewInventory viewInventory = new ViewInventory();
+
+        MoveEast moveEast = new MoveEast();
+
+        MoveWest moveWest = new MoveWest();
+
+        MoveSouth moveSouth = new MoveSouth();
+
+        MoveNorth moveNorth = new MoveNorth();
+
+        Jump longJump = new Jump();
+
+        Action flee = new Flee();
+
+
+
         System.out.println(goldbar);
         System.out.println(HeavySword);
         System.out.println(softpillow);
@@ -60,5 +75,14 @@ public class Main {
         System.out.println(GiantSpider);
         System.out.println(spotDog);
         System.out.println(BlackScorpion);
+        System.out.println(flee.Str());
+        System.out.println(viewInventory.Str());
+        System.out.println(moveEast.Str());
+        System.out.println(moveSouth.Str());
+        System.out.println(moveNorth.Str());
+        System.out.println(moveWest.Str());
+        System.out.println(longJump.Str());
+
+
     }
 }
