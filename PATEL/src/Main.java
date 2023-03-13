@@ -61,6 +61,9 @@ public class Main {
 
         Action flee = new Flee();
 
+        World world = new World();
+        world.loadTiles();
+
 
 
         System.out.println(goldbar);

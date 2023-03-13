@@ -1,3 +1,4 @@
+package Store.src;
 public class Store {
     private String storename;
 
