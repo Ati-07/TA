@@ -4,7 +4,7 @@ public class GiantSpider extends Enemy {
     protected int damage;
     protected String legSize;
 
-    public GiantSpider(String name, int hp, int damage, String legSize) {
+    public GiantSpider() {
         this.name = name;
         this.hp = hp;
         this.damage = damage;

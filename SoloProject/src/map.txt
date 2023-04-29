@@ -1,0 +1,5 @@
+ 	 	 	 	ExitRoom
+			TrapRoom	EmptyPath
+ 	 	 	EmptyPath
+ 	 	 	TreasureRoom	 
+DogRoom	TreasureRoom	StartingRoom	TreasureRoom	FindHandSawRoom

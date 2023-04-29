@@ -6,7 +6,7 @@ public class Ogre extends Enemy {
     protected String speed;
 
 
-    public Ogre(String name, int hp, int damage, int bodyFat, String speed) {
+    public Ogre() {
 
         this.name = name;
         this.hp = hp;
